@@ -4,3 +4,4 @@
 3. Download unverified sequences of the Bai family from NCBI using the target gene name or annotation keyword search. Compare these sequences with UniProt verified sequences using BLAST and filter out sequences with high similarity (e.g. >60%).
 4. Use the tool CD-HIT to remove redundant sequences to avoid duplications causing interference to the model, identity_threshold=0.9.
 5. Use the alignment results as input to build the HMM model using hmmbuild.
+6. Integrate all Bai gene homologous sequences, construct rumen Bai genome
